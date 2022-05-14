@@ -1,0 +1,262 @@
+.secone{
+    height: 100vh; 
+    background-image: url("photos/desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.link:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: white;
+	transform: scaleX(0);
+	transform-origin: right center;
+	transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.link:hover:after {
+	transform: scaleX(1);
+	transform-origin: left center;
+}
+
+.secone ul{
+    list-style: none;
+    float: left;
+}
+
+.secone li{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.secone img{
+    width: 100px;
+}
+
+.secone span,i{
+    color:white
+}
+
+.firstsectext{
+    position: relative;
+    top: 550px;
+    left: 280px;
+    width: 500px;
+}
+
+.firstsectext h1,h5{
+    color: white;
+}
+
+.firstsectext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.sectwo{
+    height: 100vh;
+    background-image: url("photos/3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secsectext{
+    position: relative;
+    top: 550px;
+    left: 10px;
+    width: 500px;
+}
+
+.secsectext h1,h5{
+    color: white;
+}
+
+.secsectext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.secthree{
+    height: 100vh;
+    background-image: url("photos/2.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.secthreetext{
+    position: relative;
+    top: 550px;
+    left: 10px;
+    width: 500px;
+}
+
+.secthreetext h1,h5{
+    color: white;
+}
+
+.secthreetext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.secfour{
+    height: 100vh;
+    background-image: url("photos/turn.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.secfourtext{
+    position: relative;
+    top: 550px;
+    left: 10px;
+    width: 500px;
+}
+
+.secfourtext h1,h5{
+    color: white;
+}
+
+.secfourtext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.secfive{
+    height: 100vh;
+    background-image: url("photos/st.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.secfivetext{
+    position: relative;
+    top: 750px;
+    left: 10px;
+    width: 500px;
+}
+
+.secfivetext h1,h5{
+    color: white;
+}
+
+.secfivetext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.secsix{
+    height: 100vh;
+    background-image: url("photos/5.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.secsixtext{
+    position: relative;
+    top: 600px;
+    left: 10px;
+    width: 500px;
+}
+
+.secsixtext h1,h5{
+    color: white;
+}
+
+.secsixtext button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 60px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.secseven{
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.secseven ul{
+    list-style: none;
+    float: left;
+}
+
+.secseven li{
+    float: left;
+    color: white;
+    margin-right: 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.sideDiv{
+    width: 0px;
+    height: 100vh;
+    background-color: black;
+    transition: .7s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#xMark{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.linksinsidediv{
+    position: relative;
+    top: 70px;
+    right: 37px;
+    display: none;
+}
+
+
+.linksinsidediv ul{
+    list-style: none;
+    transition:5s ease-in-out;
+}
+
+.linksinsidediv li{
+    color: white;
+    text-align: right;
+    line-height: 60px;
+
+}
